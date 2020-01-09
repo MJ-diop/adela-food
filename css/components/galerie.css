@@ -1,0 +1,24 @@
+.galerie-bg {
+  background: #1b353e !important;
+}
+
+.galerie-section {
+  padding-top: 2rem;
+}
+
+.galerie-desc {
+  padding-top: 6rem;
+  padding-bottom: 0;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+img {
+  box-shadow: 2px 2px 30px #4c5052;
+}
+
+.galerie-rs {
+  padding-bottom: 3%;
+}
