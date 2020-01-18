@@ -1,5 +1,12 @@
 .galerie-bg {
-  background: #1b353e !important;
+  /* background: #1b353e !important; */
+  background-image: linear-gradient(
+      0deg,
+      rgba(30, 30, 30, 0.4) 30%,
+      rgba(30, 30, 30, 0.4) 30%
+    ),
+    url('/img/header-img.jpg');
+  background-size: cover;
 }
 
 .galerie-section {
@@ -12,11 +19,11 @@
 }
 
 .row {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 img {
-  box-shadow: 2px 2px 30px #4c5052;
+  box-shadow: 10px 10px 13px #000000;
 }
 
 .galerie-rs {
