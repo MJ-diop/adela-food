@@ -2,7 +2,7 @@
   "name": "adela_food",
   "version": "1.0.0",
   "description": "site vitrine d'adela",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/MJdiop/adela-food",
   "author": "M_J_D <diopmbayejacques9@gmail.com>",
   "license": "MIT",
