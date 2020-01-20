@@ -1,0 +1,16 @@
+{
+  "name": "adela_food",
+  "version": "1.0.0",
+  "description": "site vitrine d'adela",
+  "main": "index.js",
+  "repository": "https://github.com/MJdiop/adela-food",
+  "author": "M_J_D <diopmbayejacques9@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive --output-style=compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
