@@ -76,10 +76,91 @@
 
 // document.addEventListener('DOMContentLoaded', showImage);
 
+const contact = `<div
+class="modal fade"
+id="modalContactForm"
+tabindex="-1"
+role="dialog"
+aria-labelledby="myModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header text-center">
+      <h4 class="modal-title w-100 font-weight-bold">Nous Contactez</h4>
+      <button
+        type="button"
+        class="close"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body mx-3">
+      <div class="md-form mb-5">
+        <i class="fas fa-user prefix grey-text"></i>
+        <label data-error="wrong" data-success="right" for="form34"
+          >Your name</label
+        >
+        <input type="text" id="form34" class="form-control validate" />
+      </div>
+
+      <div class="md-form mb-5">
+        <i class="fas fa-envelope prefix grey-text"></i>
+        <label data-error="wrong" data-success="right" for="form29"
+          >Your email</label
+        >
+        <input type="email" id="form29" class="form-control validate" />
+      </div>
+
+      <div class="md-form mb-5">
+        <i class="fas fa-tag prefix grey-text"></i>
+        <label data-error="wrong" data-success="right" for="form32"
+          >Subject</label
+        >
+        <input type="text" id="form32" class="form-control validate" />
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-pencil prefix grey-text"></i>
+        <label data-error="wrong" data-success="right" for="form8"
+          >Your message</label
+        >
+        <textarea
+          type="text"
+          id="form8"
+          class="md-textarea form-control"
+          rows="4"
+        ></textarea>
+      </div>
+    </div>
+    <div class="modal-footer d-flex justify-content-center">
+      <button class="voir-plus">
+        ENVOYER <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="text-center">
+<button
+  href=""
+  class="mt-4 mb-4 voir-plus"
+  data-toggle="modal"
+  data-target="#modalContactForm"
+>
+  Prendre Contact
+</button>
+</div>`;
+
 const btn = document.querySelector('#voirPlus');
 const btnMoin = document.querySelector('#voirMoins');
 const section2 = document.querySelector('#section2');
+const contactBtn = document.querySelector('#contact');
 
+contactBtn.innerHTML = contact;
 // BUTTTON VOIR PLUS
 btn.addEventListener('click', () => {
   section2.style.display = 'block';
