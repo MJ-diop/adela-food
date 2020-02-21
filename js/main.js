@@ -159,8 +159,16 @@ const btn = document.querySelector('#voirPlus');
 const btnMoin = document.querySelector('#voirMoins');
 const section2 = document.querySelector('#section2');
 const contactBtn = document.querySelector('#contact');
+const aContact = document.querySelector('.contact');
 
 contactBtn.innerHTML = contact;
+
+// show contact nav
+aContact.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector('[data-target="#modalContactForm"]').click();
+});
+
 // BUTTTON VOIR PLUS
 btn.addEventListener('click', () => {
   section2.style.display = 'block';
