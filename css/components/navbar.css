@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 a{color:white !important;font-family:'Courier Prime', monospace}a:hover,a:active{color:#a39f9f !important}.navbar-brand{font-size:2rem;margin:-12px auto;padding-right:0rem;padding-left:8rem}.nav-item{padding:0 1.5rem !important;font-size:1.2rem}nav{border-bottom:1px solid #ddd}@media (max-width: 900px){.navbar-brand{padding-left:2rem}#navbarNavAltMarkup{text-align:center}}
+=======
+nav{border-bottom:1px solid #ddd}a{color:white !important;font-family:'Courier Prime', monospace}a:hover,a:active{color:navItems-color !important}.navbar-brand{font-size:2rem;margin:-12px auto;padding-right:0rem;padding-left:8rem}.nav-item{padding:0 1.5rem !important;font-size:1.2rem}@media (max-width: 900px){.navbar-brand{padding-left:2rem}#navbarNavAltMarkup{text-align:center}}
+>>>>>>> dev-branch#1

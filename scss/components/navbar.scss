@@ -1,11 +1,17 @@
+@import './var.scss';
+
+nav {
+  border-bottom: 1px solid #ddd;
+}
+
 a {
   color: white !important;
   font-family: 'Courier Prime', monospace;
-}
 
-a:hover,
-a:active {
-  color: rgb(163, 159, 159) !important;
+  &:hover,
+  &:active {
+    color: navItems-color !important;
+  }
 }
 
 .navbar-brand {
@@ -18,10 +24,6 @@ a:active {
 .nav-item {
   padding: 0 1.5rem !important;
   font-size: 1.2rem;
-}
-
-nav {
-  border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 900px) {
