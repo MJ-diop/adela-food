@@ -27,6 +27,10 @@ a {
 }
 
 @media (max-width: 900px) {
+  nav {
+    background: #171717a1;
+  }
+
   .navbar-brand {
     padding-left: 2rem;
   }

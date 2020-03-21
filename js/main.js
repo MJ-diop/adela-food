@@ -1,3 +1,8 @@
+const btn = document.querySelector('#voirPlus');
+const btnMoin = document.querySelector('#voirMoins');
+const section2 = document.querySelector('#section2');
+const contactBtn = document.querySelector('#contact');
+const aContact = document.querySelector('.contact');
 // let btnPlus = document.querySelector('#root');
 
 // const images = [
@@ -154,12 +159,6 @@ aria-hidden="true"
   Prendre Contact
 </button>
 </div>`;
-
-const btn = document.querySelector('#voirPlus');
-const btnMoin = document.querySelector('#voirMoins');
-const section2 = document.querySelector('#section2');
-const contactBtn = document.querySelector('#contact');
-const aContact = document.querySelector('.contact');
 
 contactBtn.innerHTML = contact;
 
