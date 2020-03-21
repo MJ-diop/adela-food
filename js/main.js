@@ -33,7 +33,7 @@
 //     ({ name, image }) =>
 //       (show += `<section class="container galerie-section">
 //       <div class="row">
-//         <div class="col">
+//         <div class="col-sm-6 col-md-3">
 //           <img
 //             src=${image}
 //             alt="..."
