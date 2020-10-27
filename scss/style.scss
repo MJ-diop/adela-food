@@ -41,6 +41,11 @@ body {
   height: 200px;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 .social {
   display: flex;
   justify-content: center;
@@ -71,4 +76,5 @@ body {
 .youtube {
   width: 150px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
